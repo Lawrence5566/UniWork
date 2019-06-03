@@ -1,0 +1,8 @@
+﻿  Algorithms.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(155): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(44): warning C4172: returning address of local variable or temporary: newRgb
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(49): warning C4172: returning address of local variable or temporary: newRgb
+  CMP2090M Assignment Code.vcxproj -> C:\Users\Sicarius\Desktop\Assignment\CMP2090M Assignment Code\x64\Debug\CMP2090M Assignment Code.exe

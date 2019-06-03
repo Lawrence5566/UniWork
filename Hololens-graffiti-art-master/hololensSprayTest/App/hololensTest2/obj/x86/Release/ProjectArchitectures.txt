@@ -1,0 +1,2 @@
+C:\Users\user\Desktop\hololensTest2\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\user\Desktop\hololensTest2\App\hololensTest2\hololensTest2.csproj;x86

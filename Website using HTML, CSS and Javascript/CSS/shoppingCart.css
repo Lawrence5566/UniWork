@@ -1,0 +1,37 @@
+.cart{
+	border-style:solid;
+	border-radius:5px;
+	width:70%;
+	margin:auto;
+	margin-top:20px;
+	font-family:Trebuchet MS;
+}
+
+#cartHeader{
+	margin:0;
+	font-size:120%;
+}
+
+#cartcontent{
+	width:60%;
+}
+
+th{
+	padding:0px;
+	width:150px;
+}
+
+td{
+	width:150px;
+	text-align:center;
+}
+
+#clearCart{
+	position:relative;
+	bottom:40px;
+	left:400px;
+}
+
+.ui-state-hover {
+    border-color:green;
+}

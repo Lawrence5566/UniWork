@@ -1,0 +1,186 @@
+<!--https://wrightwoodfurniture.com/collections/wrightwood-factory for collection section!!!-->
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Full Ride List</title>
+	<link type="text/css" rel="stylesheet" href="CSS/mainPageStyle.css">
+	<link type="text/css" rel="stylesheet" href="CSS/slideshowCSS.css">
+	<link type="text/css" rel="stylesheet" href="CSS/Collections.css">
+	<link type="text/css" rel="stylesheet" href="CSS/shoppingCart.css">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"> <!--font sheet-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body style="background-color:RGB(255,255,255)">
+	<div id ="page-wrap">
+	<div id="inside">
+
+	<div id="titleLogo"><h1>Custom Motorcycles</h1></div>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us/DEMO</a></li>
+			<li><a href="FullRideList.html">Full ride list</a></li>
+			<li><a href="CustomRide.html">Custom ride</a></li>
+			<li><a href="ContactUs.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<!-- slideshow: -->
+
+	<h2 style="text-align:center;">Featured Products:</h2>
+	<div id="slideshowContainer">
+		<img src="images/Featured1.jpg" class="slides" alt="Cannot Find Image"/>
+		<img src="images/Featured2.jpg" class="slides" alt="Cannot Find Image"/>
+		<img src="images/Featured3.jpg" class="slides" alt="Cannot Find Image"/>
+		
+		<button class="slideshowCtrlButn" id="slideshowCtrlButnLeft">&#60; </button>
+		<button class="slideshowCtrlButn" id="slideshowCtrlButnRight">&#62; </button>
+
+		<script type="text/javascript" src='JS/slideshow.js'></script>
+	</div>
+	<!-- front page slideshow -->
+	
+	<!-- shopping cart -->
+	<div class="cart">
+		<h1 id="cartHeader">Shopping Cart</h1>
+		<div style="background:#fff">
+		<table id="cartContent">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Quantity</th>
+					<th>Price(£)</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
+		</div>
+		<p id="total">Total: $0</p>
+		<h2>Drop here or press + to add to cart</h2>
+		<button id="clearCart">Clear Cart</button>
+	</div>
+	
+	<!-- collection of full ride list -->
+	<section id="collection-content">
+	<ul class="filters">	
+		<li class="filter">
+			<label>Sort by</label> 
+			<select id="sortFilter">
+				<option value="price-ascending" selected>Price: Low to High</option>
+				<option value="price-descending">Price: High to Low</option>
+				<option value="title-ascending">Alphabetically: A-Z</option>
+				<option value="title-descending">Alphabetically: Z-A</option>
+			</select>
+		</li>
+		
+		<li class="filter">
+			<label>Price</label>
+			<select id="priceFilter">
+				<option value="All" selected>All</option>
+				<option value="under 100">Under $100 </option>
+				<option value="100-250">$100-$250</option>
+				<option value="250-500">$250-$500</option>
+				<option value="over 500">Over $500</option>
+			</select>
+		</li>
+		
+		<li class="filter">
+			<label>Type</label>
+			<select id="typeFilter">
+				<option value="All" selected>All</option>
+				<option value="Hot rod">Hot rod</option>
+				<option value="Typhoon">Typhoon</option>
+			</select>
+		</li>
+	</ul>
+	
+	<!-- where full list of products are displayed -->
+	<h2 id="noItems">No items to display</h2>
+	<ul id="collection">
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">BProduct1</p>
+				<p class="price">£75</p>
+				<p class="type">Hot rod</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">DProduct2</p>
+				<p class="price">£200</p>
+				<p class="type">Hot rod</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">FProduct3</p>
+				<p class="price">£400</p>
+				<p class="type">Typhoon</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">ZProduct4</p>
+				<p class="price">£300</p>
+				<p class="type">Hot rod</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">AProduct5</p>
+				<p class="price">£600</p>
+				<p class="type">Typhoon</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+		<li class="item">
+			<div class="productImageWrap">
+				<img class="productImg" src="images/product.jpg" alt="Cannot Find Image"/>
+			</div>
+			<div class="productInfo">
+				<p class="productName">NProduct6</p>
+				<p class="price">£220</p>
+				<p class="type">Typhoon</p>
+				<button class="addToBasketBtn">&#43;</button>
+			</div>
+		</li>
+	</ul>
+	
+	<script type="text/javascript" src='JS/collection.js'></script>
+	<script type="text/javascript" src='JS/shoppingCart.js'></script>
+	</section>
+	
+	</div>
+	</div>
+</body>
+</html>

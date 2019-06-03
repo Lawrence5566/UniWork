@@ -1,0 +1,1 @@
+filename: 4xZoomPPM.ppm , dimensions: 3000 x 3000 , colour depth: true colour, 24bit , zoom amount: 4 , zoom type: Nearest Neighbour

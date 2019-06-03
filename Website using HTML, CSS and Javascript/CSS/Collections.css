@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+
+#collection-content{
+	height:100%;
+	padding:30px;
+	margin:auto;
+}
+.filters{
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+	width:100%;
+}
+.filter{
+	padding-right:20px;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 120%;
+	display: inline;
+	position:relative;
+	left: 200px;
+}
+#collection{
+	padding: 0;		/* removing default padding and margins */
+	margin: 0;
+	margin-top: 20px;
+	list-style-type:none;		/* removing dot */
+	text-align: left;
+}
+#collection li{
+	width: 27%;
+	height: auto;
+	margin: 2%;
+	float:left; /* allows you to display them like text in a word document */
+	text-align: -webkit-match-parent;
+	border-style: solid;
+	border-width: 2px;
+	background:white;
+}
+
+.productImageWrap{
+	margin:auto;
+	width:100%;
+	height:auto;
+}
+.productImg{
+	width:100%;
+	height:100%;
+}
+.productInfo{
+	overflow:auto;
+	width:100%; /*therefore will cover the whole width of div and allow price to go below */
+	height:20%;
+	float:left;
+}
+.productInfo p{
+	font-family: 'Arima Madurai', cursive;
+	font-size:100%;
+	width:50%; 
+	height:50%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#noItems{
+	display: none;
+	text-align: center;
+	width: 100%;
+}

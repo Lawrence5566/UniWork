@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Custom ride</title>
+	<link type="text/css" rel="stylesheet" href="CSS/mainPageStyle.css">
+	<link type="text/css" rel="stylesheet" href="CSS/CustomRide.css">
+	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet"> <!--font sheet-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body style="background-color:RGB(255,255,255)">
+	<div id ="page-wrap">
+	<div id="inside">
+
+	<div id="titleLogo"><h1>Custom Motorcycles</h1></div>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us/DEMO</a></li>
+			<li><a href="FullRideList.html">Full ride list</a></li>
+			<li><a href="CustomRide.html">Custom ride</a></li>
+			<li><a href="ContactUs.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	
+	<!-- custom bike -->
+	<section id="tools">
+	<ul id="toolsList">
+		<li> 
+			<label>Type</label> 
+			<select id="TypeSelection">
+				<option value="Custom Lancelot" selected>Lancelot</option>
+				<option value="Custom Tyhoon">Tyhoon</option>
+			</select>
+		</li>
+		<li>
+			<button id="seatLeftBtn"> &#60; </button>
+			Seat
+			<button id="seatRightBtn"> &#62; </button>
+		</li>
+		<li>
+			<button id="wheelsLeftBtn"> &#60; </button>
+			Wheels
+			<button id="wheelsRightBtn"> &#62; </button>
+		</li>
+		<li>
+			<button id="bodyLeftBtn"> &#60; </button>
+			Body
+			<button id="bodyRightBtn"> &#62; </button>
+		</li>
+		<li>
+			<button id="saveBtn"> save </button>
+		</li>
+		<li>
+			<button id="loadBtn"> load </button>
+		</li>
+	</ul>
+	</section>
+	
+	<section id="CustomBikeContainer">
+		<div id="bikeType">
+			<img id="typeImg" src="images/Lancelot/LancelotType.png" alt="Cannot Find Image">
+		</div>
+		<div id="bikeSeat" class="CustomPiece">
+			<img id="seatImg" src="images/Lancelot/LancelotSeatWhite.png" alt="Cannot Find Image">
+		</div>
+		<div id="bikeWheels" class="CustomPiece">
+			<img id="wheelsImg" src="images/Lancelot/LancelotWheelsWhite.png" alt="Cannot Find Image">
+		</div>
+		<div id="bikeBody" class="CustomPiece">
+			<img id="bodyImg" src="images/Lancelot/LancelotBodyWhite.png" alt="Cannot Find Image">
+		</div>
+	</section>
+	
+	<script type="text/javascript" src='JS/CustomRide.js'></script>
+
+	
+	
+	</div>
+	</div>
+</body>
+</html>

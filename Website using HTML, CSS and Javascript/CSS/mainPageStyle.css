@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#page-wrap {
+	min-width: 960px;		/*smallest width entire webpage can be*/
+	max-width: 1300px;		/*largest*/
+	margin: 10px auto;
+	overflow: hidden;
+	}
+	#page-wrap #inside {
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 85%;
+		height:100%;
+		overflow: hidden;
+	}
+	
+#titleLogo{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+	width:85%;
+	margin:auto;
+}
+
+nav ul{
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-left:none;
+	border-right:none;
+	border-color:black;
+	width:100%;
+	margin:5px;
+	margin-bottom:20px;
+	display:flex;		/* ensures equal spaces between nav bar elements */
+	justify-content: space-around;
+	padding-left:0px;
+}
+	
+nav li {
+	font-family:Trebuchet MS;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	font-size: 90%;
+}
+
+nav a {
+	text-decoration:none;
+	color: black;
+	display: block;
+	padding:10px;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+#shortAboutText{
+	font-family:Trebuchet MS;
+	font-size:30px;
+	text-align:center;
+}
+
+h2{
+	font-family:Trebuchet MS;
+}
+
+footer{
+	margin-top:50px;
+	border-style:solid hidden hidden hidden;
+	border-color:black;
+	border-width:3px;
+}

@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(41): warning C4018: '<': signed/unsigned mismatch
+  ImageHandling.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\imagehandling.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  Image.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(41): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  CMP2090M Assignment Code.vcxproj -> C:\Users\Sicarius\Desktop\Assignment\CMP2090M Assignment Code\Debug\CMP2090M Assignment Code.exe

@@ -1,0 +1,35 @@
+#tools{
+	padding:5px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:95%;
+	border-style:solid;
+	border-width:3px;
+}
+
+#toolsList{
+	list-style-type:none;
+	padding:10px;
+}
+
+#toolsList li{
+	display:inline;
+	font-family:Trebuchet MS;
+	padding: 10px;
+}
+
+#CustomBikeContainer{
+	border-style:solid;
+	border-width:3px;
+}
+
+#CustomBikeContainer img{
+	margin-left:20px;
+}
+
+.CustomPiece{		/*moves overlaping images up to be on top of bike*/
+	position:absolute;
+	top:410px;
+	z-index:5;
+}

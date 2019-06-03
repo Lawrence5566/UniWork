@@ -1,0 +1,31 @@
+﻿  Algorithms.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(155): warning C4018: '<': signed/unsigned mismatch
+  ImageConsts.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\Image.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\Image.h(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\Image.h(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\Image.h(155): warning C4018: '<': signed/unsigned mismatch
+  ImageHandling.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(155): warning C4018: '<': signed/unsigned mismatch
+ImageHandling.cpp(17): warning C4018: '<': signed/unsigned mismatch
+ImageHandling.cpp(45): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(91): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(100): warning C4018: '<': signed/unsigned mismatch
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(155): warning C4018: '<': signed/unsigned mismatch
+  todo.cpp
+  Generating code
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(49): warning C4172: returning address of local variable or temporary: newRgb
+c:\users\sicarius\desktop\assignment\cmp2090m assignment code\cmp2090m assignment code\image.h(44): warning C4172: returning address of local variable or temporary: newRgb
+  28 of 419 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    38 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CMP2090M Assignment Code.vcxproj -> C:\Users\Sicarius\Desktop\Assignment\CMP2090M Assignment Code\x64\Release\CMP2090M Assignment Code.exe

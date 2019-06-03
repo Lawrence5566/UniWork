@@ -1,0 +1,1 @@
+filename: SigmaPPM.ppm , dimensions: 3264 x 2448 , colour depth: true colour, 24bit

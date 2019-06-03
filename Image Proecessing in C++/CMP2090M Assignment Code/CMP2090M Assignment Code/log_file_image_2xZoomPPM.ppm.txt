@@ -1,0 +1,1 @@
+filename: 2xZoomPPM.ppm , dimensions: 1500 x 1500 , colour depth: true colour, 24bit , zoom amount: 2 , zoom type: Nearest Neighbour
